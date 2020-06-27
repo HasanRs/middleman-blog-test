@@ -1,0 +1,24 @@
+footer
+  = partial 'partials/shared/header-primary'
+
+    nav.navigation
+      ul
+        - data.settings.navigation.nav_items.each do | nav_item |
+          li
+            = nav_link nav_item.label, nav_item.path
+  
+  .footer-content
+    .container-fluid
+      .row
+        .newsletter
+          form
+            label for="email" sign up newsletter
+            input type="email" name="email" placeholder="email address"
+            button type="submit" submit
+
+        .social
+          .icons
+            = link_to 'http://instagram.com/hasanbaygl'
+              = image_tag "social/instagram.svg"
+            = link_to '#'
+              = image_tag "social/twitter.svg"
