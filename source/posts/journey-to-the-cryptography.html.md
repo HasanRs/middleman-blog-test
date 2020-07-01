@@ -12,6 +12,8 @@ We call decoding. When we do not use physical locks and start using passwords in
 
 ![](/images/uploads/binary-matrix-code-computer-data-stream-digital-security-codes-gray-coding-information-abstract-background_102902-838.jpg "Probability")
 
+<br>
+
 Let me talk about some basic principles.
 
 For a given event A, probability p (A) is represented by a number ranging from 0 to 1. For an impossible event, the probability is 0 and the probability of an event that will happen is 1.
